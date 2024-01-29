@@ -1,0 +1,74 @@
+{
+    "name": "XRActions",
+    "maps": [
+        {
+            "name": "XRControls",
+            "id": "cb2fa57a-f934-4498-99df-971b73e9e53d",
+            "actions": [
+                {
+                    "name": "Left_y_button",
+                    "type": "Button",
+                    "id": "6c6845cf-5012-4467-bc18-37a7b65fdaa5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "left_x_button",
+                    "type": "Button",
+                    "id": "ad6640f3-0a01-4a58-b628-c41ebb9c3014",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "right_b_button",
+                    "type": "Button",
+                    "id": "9ddb636a-bf0d-43df-b766-46f3ef9a6d39",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "93e5ed65-23bf-482e-9702-5e10258ad2b8",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left_y_button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd26f59a-37cf-4302-9af9-bac0d510e39b",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left_x_button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9282c643-2676-4dac-a9ea-bb31dbcc1e7f",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "right_b_button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
